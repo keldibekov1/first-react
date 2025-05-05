@@ -2,51 +2,93 @@
     padding: 80px 0;
     background: #fff;
     text-align: center;
+    font-family: Inter, sans-serif;
+  }
+  
+  .products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .subtitle {
-    color: #4b50e6;
+    color: #3858D6;
     font-weight: 500;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    line-height: 100%;
     margin-bottom: 8px;
   }
   
   .title {
-    font-size: 28px;
-    font-weight: bold;
+    color: #1E1D1D;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: Inter, sans-serif;
+    line-height: 100%;
+    letter-spacing: 0%;
     margin-bottom: 40px;
   }
   
   .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, 1fr); 
     gap: 30px;
   }
   
   .product-card {
-    background: #f9f9f9;
+    width: 335px;
+    height: 440px;
+    background: #F9F9F9;
+    border-radius: 20px;
     padding: 20px;
-    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Poppins, sans-serif;
   }
   
   .product-card img {
-    width: 100%;
-    height: auto;
+    width: 250px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 25px;
     margin-bottom: 15px;
   }
   
   .product-card h3 {
-    font-size: 16px;
+    width: 334px;
+    height: 30px;
+    top: 921px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #1E1D1D;
     margin-bottom: 5px;
+    text-align: center;
   }
   
   .rating {
-    color: #ffb400;
-    font-size: 14px;
-    margin-bottom: 10px;
+    color: #1E1D1D;
+    font-size: 22px;
+   
+    margin-bottom: 8px;
   }
   
   .price {
     font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 120%;
+    font-family: Poppins;
+
   }
   
   .price .old {
@@ -67,6 +109,7 @@
     border: none;
     border-radius: 12px;
     cursor: pointer;
+    transition: background-color 0.3s;
   }
   
   .view-more button:hover {

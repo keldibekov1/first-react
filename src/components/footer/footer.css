@@ -1,0 +1,14 @@
+.footer {
+    background-color: #000000;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .footer h3 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+  }
+  
